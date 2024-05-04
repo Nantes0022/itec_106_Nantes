@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Calculator</title>
+		<link rel="stylesheet" href="mystyle.css">
+	</head>
+	<body class="bodyClass">
+		<div class="borderCalc">
+			<div class="displayNum">
+				<input type="text" id="disp" class="dispNum" name="" value="0" disabled />
+			</div>
+			<div class="C">
+				<input type="button" class="c5" name="" value="C" onclick="clearDisplay()" />
+			</div>
+			<div class="num9to7">
+				<input type="button" class="c1" name="" value="9" onclick="appendToDisplay('9')" />
+				<input type="button" class="c1" name="" value="8" onclick="appendToDisplay('8')" />
+				<input type="button" class="c1" name="" value="7" onclick="appendToDisplay('7')" />
+				<input type="button" class="c5" id="Operators" name="" value="/" onclick="appendToDisplay('/')"/>
+			</div>
+			<div class="num6to4">
+				<input type="button" class="c2" name="" value="6" onclick="appendToDisplay('6')" />
+				<input type="button" class="c2" name="" value="5" onclick="appendToDisplay('5')" />
+				<input type="button" class="c2" name="" value="4" onclick="appendToDisplay('4')" />
+				<input type="button" class="c5" id="Operators" name="" value="*" onclick="appendToDisplay('*')" />
+			</div>
+			<div class="num3to1">
+				<input type="button" class="c3" name="" value="3" onclick="appendToDisplay('3')" />
+				<input type="button" class="c3" name="" value="2" onclick="appendToDisplay('2')" />
+				<input type="button" class="c3" name="" value="1" onclick="appendToDisplay('1')" />
+				<input type="button" class="c5" id="Operators" name="" value="-" onclick="appendToDisplay('-')"/>
+			</div>
+			<div class="num0">
+				<input type="button" class="c4" name="" value="0" onclick="appendToDisplay('0')" />
+				<input type="button" class="c4" name="" value="." onclick="appendToDisplay('.')" />
+				<input type="button" class="c4" name="" value="=" onclick="calculate()" />			
+				<input type="button" class="c5" id="Operators" name="" value="+" onclick="appendToDisplay('+')"/>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="myscript.js"></script>
+	</body>
+</html>

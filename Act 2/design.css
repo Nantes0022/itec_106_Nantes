@@ -1,0 +1,31 @@
+#GameBlock{
+	background-color: #d5d2d5;
+	text-align: center;
+	border:1px solid black;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+h1{	
+    font-family: 'Cascadia Code', sans-serif;
+}
+.choices{
+	width: 100px;
+	height: 100px;
+}
+.c1{
+	background-image: url('Rock.jpg');
+	font-size: 0;
+	background-size: cover;
+}
+.c2{
+	background-image: url('Paper.jpg');
+	font-size: 0;
+	background-size: cover;
+}
+.c3{
+	background-image: url('Scissors.jpg');
+	font-size: 0;
+	background-size: cover;
+}

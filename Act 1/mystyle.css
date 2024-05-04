@@ -1,0 +1,84 @@
+.bodyClass
+{
+	text-align: center;
+}
+
+.num9to7,.num6to4,.num3to1,.num0,.C,.displayNum
+{
+	margin-bottom: 10px;
+}
+.C
+{
+	margin-left: 218px;
+}
+.c1
+{	
+	background: linear-gradient(to bottom, #36c9fc 0%, #0864c8 100%);
+	width: 70px;
+	height: 70px;
+	color: white;
+	font-size: 14;
+	border-color: white;
+	border-radius: 50px;
+}
+.c2
+{	
+	background: linear-gradient(to bottom, #36c9fc 0%, #0864c8 100%);	
+	width: 70px;
+	height: 70px;
+	color: white;
+	font-size: 14;
+	border-color: white;
+	border-radius: 50px;
+}
+.c3
+{	
+	background: linear-gradient(to bottom, #36c9fc 0%, #0864c8 100%);
+	width: 70px;
+	height: 70px;
+	color: white;
+	font-size: 14;
+	border-color: white;
+	border-radius: 50px;
+}
+.c4
+{	
+	background: linear-gradient(to bottom, #36c9fc 0%, #0864c8 100%);
+	width: 70px;
+	height: 70px;
+	color: white;
+	font-size: 14;
+	border-color: white;
+	border-radius: 50px;
+}
+
+.c5
+{	
+	background: linear-gradient(to bottom, #3483dd 0%, #082ba2 100%);
+	width: 70px;
+	height: 70px;
+	color: white;
+	font-size: 14;
+	border-color: white;
+	border-radius: 50px;
+}
+.dispNum
+{	
+	background-color: black;
+	color: #90EE90;
+	font-size: 40;
+	padding-left: 10px;
+	width: 310px;
+	height: 70px;
+	border-radius: 10px;
+}
+.borderCalc
+{
+	border: 1px solid black;
+	padding-top: 10px;
+	margin-left: 790px;
+	margin-right: 790px;
+	border-radius: 10px;
+}
+
+

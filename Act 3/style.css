@@ -1,0 +1,28 @@
+body{
+	text-align: center;
+	background-color: #5e60CE;
+	font-family: Lucida Calligraphy;
+}
+
+.prompt{
+	color:red;
+}
+
+.wholeobject{
+	margin-left: 370px;
+	margin-right: 370px;	
+	background-color: #7400b8;
+	border: 3px solid #72EFDD;
+	color: #72EFDD;
+}
+
+.button1{
+	margin-bottom: 40px;
+	font-size: 20px;
+	border-radius: 25px;
+}
+
+.textClass{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
